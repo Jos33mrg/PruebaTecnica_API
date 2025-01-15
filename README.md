@@ -7,6 +7,12 @@ Para autenticarte, realiza una solicitud POST a la ruta /api/auth/login con los 
 
 SCRIPT CREACIÓN DE PRODUCTOS
 
+{
+  "user": "admin"
+  "password" : "admin123!"
+}
+
+
 INSERT INTO Productos (Nombre, Precio, Stock, FechaCreacion)
 VALUES
     ('Producto 1', 100.00, 10, '2025-01-15T14:30:00'),
